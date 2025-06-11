@@ -1,5 +1,12 @@
 .body-home {
-    background-color: #f0f0f0;
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    /*se puede mejorar*/
     font-family: Arial, sans-serif;
     color: #333;
+}
+.black-fill {
+    background: rgba(0, 0, 0, 0.7); /*0.5 suave 0.7 mas opaco*/
+    min-height: 100vh;
 }
