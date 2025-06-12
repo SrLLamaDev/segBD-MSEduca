@@ -10,3 +10,24 @@
     background: rgba(0, 0, 0, 0.7); /*0.5 suave 0.7 mas opaco*/
     min-height: 100vh;
 }
+#homeNav {
+    background: rgba(255, 255, 255, 0.5) !important;
+}
+.welcome-text {
+    min-height: 80vh;
+    border-radius: 10px;
+}
+.welcome-text img {
+    width: 100px;
+}
+
+.welcome-text h4 {
+    color: #eee;
+    font-size: 51px;
+}
+.welcome-text p {
+    color: #222;
+    background: rgba(255, 255, 255, 0.5) !important;
+    padding: 5px;
+    border-radius: 4px;
+}

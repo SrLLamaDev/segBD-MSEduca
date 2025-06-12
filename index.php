@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="body-home">
-    <div class="black-fill">
+    <div class="black-fill"><br/><br/>
         <div class="container">
         <!--asd-->
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-light" id="homeNav">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand me-auto" href="#">
                         <img src="img/logo.webp" width="50">
                     </a>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler me-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
                     
@@ -39,17 +39,31 @@
                                     Contacto
                                 </a>
                             </li>
+                            
+                        </ul>
+                        
+                        <ul class="navbar-nav me-right mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
                                     Login
                                 </a>
                             </li>
                         </ul>
-                    
+
                     </div>
+                    <div>
+                        
+                    </div>
+                    
+
                 </div>
             </nav>
         <!--asd-->
+            <section class="welcome-text d-flex justify-content-center align-items-center flex-column">
+                <img src="img/logo.webp">
+                <h4>Bienvenido a las escuela</h4>
+                <p>Esta es una plataforma de gestión escolar que te permite administrar estudiantes, profesores y cursos de manera eficiente.</p>	
+            </section>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
